@@ -5,7 +5,9 @@ return {
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
   { import = "astrocommunity.scrolling.nvim-scrollbar" },
-  { import = "astrocommunity.colorscheme.github-nvim-theme" },
+  -- { import = "astrocommunity.colorscheme.github-nvim-theme" },
+  { import = "astrocommunity.colorscheme.sonokai" },
+  { import = "astrocommunity.editing-support.todo-comments-nvim" },
   { import = "astrocommunity.pack.angular" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.html-css" },
