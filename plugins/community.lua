@@ -11,6 +11,8 @@ return {
   { import = "astrocommunity.editing-support.nvim-ts-rainbow" },
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
   { import = "astrocommunity.editing-support.treej" },
+  { import = "astrocommunity.motion.mini-move" },
+  { import = "astrocommunity.motion.mini-surround" },
   { import = "astrocommunity.pack.angular" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.html-css" },
