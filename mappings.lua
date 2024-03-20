@@ -29,6 +29,11 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    -- Package info
+    ["<leader>n"] = { name = "Package Info" },
+    ["<leader>nd"] = { "<cmd>lua require('package-info').delete()<cr>", desc = "Delete" },
+    ["<leader>np"] = { "<cmd>lua require('package-info').change_version()<cr>", desc = "Change Version" },
+    ["<leader>ni"] = { "<cmd>lua require('package-info').install()<cr>", desc = "Install" },
   },
   t = {
     -- setting a mapping to false will disable it
