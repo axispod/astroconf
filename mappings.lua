@@ -6,6 +6,15 @@
 return {
   -- first key is the mode
   n = {
+    -- Testing
+    ["<leader>r"] = { name = "Test" },
+    ["<leader>rr"] = { "<cmd>lua require('neotest').run.run()<cr>", desc = "Run nearest test"},
+    ["<leader>ro"] = { "<cmd>lua require('neotest').output.open({enter=true})<cr>", desc = "Open output window"},
+    ["<leader>rp"] = { "<cmd>lua require('neotest').output_panel.toggle()<cr>", desc = "Toggle output panel"},
+    ["<leader>rc"] = { "<cmd>lua require('neotest').output_panel.clear()<cr>", desc = "Clear output panel"},
+    ["<leader>rs"] = { "<cmd>lua require('neotest').summary.toggle()<cr>", desc = "Toggle summary window"},
+    ["<leader>r["] = { "<cmd>lua require('neotest').jump.prev({status='failed'})<cr>", desc = "Prev failure"},
+    ["<leader>r]"] = { "<cmd>lua require('neotest').jump.next({status='failed'})<cr>", desc = "Next failure"},
     -- second key is the lefthand side of the map
     -- mappings seen under group name "Buffer"
     ["<leader>bn"] = { "<cmd>tabnew<cr>", desc = "New tab" },
