@@ -7,6 +7,7 @@ return {
   { import = "astrocommunity.scrolling.nvim-scrollbar" },
   -- { import = "astrocommunity.colorscheme.github-nvim-theme" },
   { import = "astrocommunity.colorscheme.sonokai" },
+  { import = "astrocommunity.editing-support.nvim-devdocs" },
   { import = "astrocommunity.editing-support.neogen" },
   { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
