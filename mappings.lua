@@ -6,6 +6,8 @@
 return {
   -- first key is the mode
   n = {
+    -- Select yanked text
+    ["vv"] = { "`[v`]", desc = "Select yanked text" },
     -- Testing
     ["<leader>r"] = { name = "Test" },
     ["<leader>rr"] = { "<cmd>lua require('neotest').run.run()<cr>", desc = "Run nearest test"},
